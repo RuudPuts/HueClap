@@ -1,15 +1,14 @@
 {
     "state": {
-        "status": 0,
-        "lastupdated": "none"
+        "flag": false,
     },
     "config": {
         "on": true,
         "reachable": true
     },
-    "name": "HueClap",
-    "type": "CLIPGenericStatus",
-    "modelid": "HC0001",
+    "name": "Group0State",
+    "type": "CLIPGenericFlag",
+    "modelid": "G0S0001",
     "manufacturername": "Clappy BV",
     "swversion": "1.0",
     "uniqueid": "BAC0CAFE"
