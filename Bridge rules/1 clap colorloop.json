@@ -1,0 +1,32 @@
+{
+    "name": "1 clap colorloop on",
+    "conditions": [
+        {
+            "address": "/sensors/2/state/status",
+            "operator": "eq",
+            "value": "1"
+        },
+        {
+            "address": "/sensors/3/state/flag",
+            "operator": "eq",
+            "value": "true"
+        }
+    ],
+    "actions": [
+        {
+            "address": "/sensors/2/state",
+            "method": "PUT",
+            "body": {
+                "status": 0
+            }
+        },
+        {
+            "address": "/groups/0/action",
+            "method": "PUT",
+            "body": {
+                "effect": "colorloop",
+                "sat": 255
+            }
+        }
+    ]
+}

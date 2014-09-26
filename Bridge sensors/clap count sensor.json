@@ -1,0 +1,16 @@
+{
+    "state": {
+        "flag": false,
+        "lastupdated": "none"
+    },
+    "config": {
+        "on": true,
+        "reachable": true
+    },
+    "name": "Group0State",
+    "type": "CLIPGenericFlag",
+    "modelid": "G0S0001",
+    "manufacturername": "Clappy BV",
+    "swversion": "1.0",
+    "uniqueid": "BAC0CAFE"
+}

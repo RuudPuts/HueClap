@@ -1,0 +1,39 @@
+{
+    
+    "name": "2 clap lights on",
+    "conditions": [
+        {
+            "address": "/sensors/2/state/status",
+            "operator": "eq",
+            "value": "2"
+        },
+        {
+            "address": "/sensors/3/state/flag",
+            "operator": "eq",
+            "value": "false"
+        }
+    ],
+    "actions": [
+        {
+            "address": "/sensors/2/state",
+            "method": "PUT",
+            "body": {
+                "status": 0
+            }
+        },
+        {
+            "address": "/groups/0/action",
+            "method": "PUT",
+            "body": {
+                "on": true
+            }
+        },
+        {
+            "address": "/sensors/3/state",
+            "method": "PUT",
+            "body": {
+                "flag": true
+            }
+        }
+    ]
+}

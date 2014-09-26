@@ -1,0 +1,16 @@
+{
+    "state": {
+        "status": 0,
+        "lastupdated": "none"
+    },
+    "config": {
+        "on": true,
+        "reachable": true
+    },
+    "name": "HueClap",
+    "type": "CLIPGenericStatus",
+    "modelid": "HC0001",
+    "manufacturername": "Clappy BV",
+    "swversion": "1.0",
+    "uniqueid": "BAC0CAFE"
+}
